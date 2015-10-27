@@ -3,8 +3,8 @@ Pod::Spec.new do |s|
   s.version      = "1.2.0"
   s.summary      = "Create UIColor Objects using Hex Values"
   s.homepage     = "https://github.com/ArtSabintsev/UIColor-ColorWithHexAndAlpha"
-  s.platform     = :ios, '5.0'  
-  s.platform     = :tvos, '9.0'
+  s.ios.deployment_target = "5.0"
+  s.tvos.deployment_target = "9.0"
   s.source       = { :git => "https://github.com/ArtSabintsev/UIColor-ColorWithHexAndAlpha.git", :tag => "1.2.0" }
   s.source_files = '*.{h,m}'
   s.requires_arc = true
